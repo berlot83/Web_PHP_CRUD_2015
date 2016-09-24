@@ -11,6 +11,8 @@ Comentarios del autor.
   • Los formularios de registro y login usan las funciones más conocidas en php para validar formularios, lo mejor ordenados posibles.
   • Comparto con ustedes este pequeño proyecto para ayudar a quien lo requiera.
   • No tiene ni ajax ni html, para no mezclar contenidos puros de php, proximamente haré otros integrados. 
+  • El que quiera copielo las veces que quiera, algunos datos pueden parecer muy simples y para algunos obsoletos, pero funcionan bien.
+  • Las validaciones de los formularios son únicas para ganar tiempo, osea que si un campo esta mal hay que llenar todo de nuevo.
 
 
                                                                                                           Axel A. Berlot
