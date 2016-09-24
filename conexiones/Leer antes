@@ -1,0 +1,2 @@
+
+Este archivo es el principal de la conexion, si se modifica la ruta no va a funcionar correctamente las tablas mysql, hacer backup antes.
