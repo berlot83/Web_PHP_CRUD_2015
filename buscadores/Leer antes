@@ -1,0 +1,4 @@
+
+• Estos tres archivos son php que controlan las busquedas en la base de datos, con sus tablas respectivas,
+no cambiar de ruta a menos que tenga todo controlado, estos archivos dependen de otros, principalmente aquellos
+que están dentro de la carpeta "paginas".
