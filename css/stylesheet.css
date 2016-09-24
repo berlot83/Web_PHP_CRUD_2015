@@ -1,0 +1,176 @@
+
+
+
+body{ 
+	font-family: 'Roboto Condensed', sans-serif;
+	width: 80%;
+	margin: auto;
+background-image: url("http://localhost/vehiculos/images/f16transparente.jpg");
+color: white;
+text-shadow: 3px 3px 3px black;
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+	}
+
+a:visited {
+    color: orange;
+}
+
+a:link {
+    color: orange;}
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: yellow;
+}
+
+input[type=text]{background-color: lightgreen;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 1);
+    -moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 1);
+	box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 1); 
+	border-radius: 2px;}	
+
+input[type=password]{background-color: lightblue;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 1);
+    -moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 1);
+	box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 1); 
+	border-radius: 2px;}	
+
+input[type=number] {background-color: lightblue;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 1);
+    -moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 1);
+	box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 1); 
+	border-radius: 2px;}
+
+body > h1 {color: white;
+		   font-family:Roboto Condensed;
+			text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}
+
+body > h2 {color: white;
+			font-family:Roboto Condensed;
+			text-align: center;
+			text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}
+
+
+
+body > h2:nth-child(7) > p {
+	color: red;
+}
+
+
+body > table:nth-child(9) {border: 4px black solid;
+						border-collapse: collapse;
+						margin: 5px;}
+
+
+body > table:nth-child(13) {border: 4px black solid;
+						border-collapse: collapse;
+						margin: 5px;}
+
+						
+body > table td {border: 2px black solid;}
+
+
+/*tabla aviones*/
+body > tabla > table {border: 4px black solid;
+						border-collapse: collapse;
+						margin: 5px;
+						background-image: url("http://localhost/vehiculos/images/f16transparente.jpg");}
+
+
+
+body > tabla > table > tbody > tr > td {border: 2px black solid;}
+
+
+/*tabla helicopteros 1*/
+body > tabla > tabla > table {border: 4px black solid;
+						border-collapse: collapse;
+						margin: 5px;}
+
+body > tabla > tabla > table > tbody > tr> td {border: 2px black solid;}
+
+/*tabla helicopteros 2*/
+body > tabla > tabla > tabla > table{border: 4px black solid;
+						border-collapse: collapse;
+						margin: 5px;}
+
+body > tabla > tabla > tabla > table > tbody > tr> td{border: 2px black solid;}
+
+
+/*formulario envio*/
+body > tabla > tabla > tabla > formulario > form:nth-child(8) {margin= 0 auto ;}
+
+
+
+/*tabla pagina barcos*/
+body > table {border: 4px black solid;
+						border-collapse: collapse;
+						margin: 5px;
+						margin-left: auto;
+						margin-right: auto;}
+
+
+/*formulario de registro*/
+body > formulario > form:nth-child(7) {margin-left: 0 auto;
+										margin-right: 0 auto;}
+
+
+#izquierda{width: 30%; float: left;}
+#centro{width: 30%; float: left;}
+#derecha{width: 30%; float: left;}
+
+#izquierda > img{
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 1);
+    -moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 1);
+	box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 1); 
+	border-radius: 10px;}
+
+#centro > img{
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 1);
+    -moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 1);
+	box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 1); 
+	border-radius: 10px;}
+
+#derecha > img{
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 1);
+    -moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 1);
+	box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 1); 
+	border-radius: 10px;}
+
+input[type="submit"] {border-radius: 5px; width: auto;
+	background-color: orange;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 1);
+    -moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 1);
+	box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 1); 
+	color: white;
+	text-shadow: 3px 3px 3px black;
+	font-style: italic;
+	font-weight: bold;
+							}
+
+input:hover{background-color: pink;}
+
+input:focus{-webkit-box-shadow: 0px 0px 10px 0px red;
+    -moz-box-shadow:    0px 0px 10px 0px red;
+	box-shadow:         0px 0px 10px 0px red;
+color: black;
+border-color: grey;
+border-radius: 1px red;
+}
+
+
+
+
+
+
+
+
+
+
+
