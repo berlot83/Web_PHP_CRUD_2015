@@ -1,0 +1,1 @@
+Este código es una web simple hecha en php, con mysql, de altas, bajas y modificaciones, ningún elemento de javascript ni un front end muy detallado.
